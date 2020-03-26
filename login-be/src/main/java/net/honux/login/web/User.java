@@ -22,10 +22,6 @@ public class User {
         this.email = email;
     }
 
-    public void setCreatedDate(LocalDateTime createdDate) {
-        this.createdDate = createdDate;
-    }
-
     public Long getId() {
         return id;
     }
